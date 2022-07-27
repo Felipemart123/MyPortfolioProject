@@ -1,30 +1,39 @@
 body, html {
-                margin: 0;
-                padding: 0;
-                background-color: #fff;
+                margin:auto;
+                padding: 0%;
+                background-color:antiquewhite;
                 color: #444452;
                 /*font-family: Apercu,Source Sans Pro,Helvetica,Arial,sans-serif;*/
                 line-height: 1.5;
-                scroll-behavior: smooth;
-                font-family: 'Share Tech Mono', monospace;
+                scroll-behavior:smooth;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             }
 
 body.night, html.night {
-                            background-color: #131417;
+                            background-color:#36363c;
                             color: #afafbf;
                             scroll-behavior: smooth;
                         }
 
 
+
+
 h1 {
-    display: block;
+    display:block;
     font-size: 2em;
     -webkit-margin-before: 0.67em;
     -webkit-margin-after: 0.67em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-weight: bold;
+    font-weight:lighter;
 }
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    
+} 
 
 h2 {
     display: block;
@@ -33,7 +42,7 @@ h2 {
     -webkit-margin-after: 0.83em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 h3 {
@@ -43,7 +52,7 @@ h3 {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 body a, html a {
@@ -71,9 +80,9 @@ body .emoji, html .emoji {
 }
 
 section{
-    /*opacity: 1;*/
-    /*word-spacing: 2px;*/
-    /*letter-spacing: 1px;*/   
+    opacity: 1;
+    word-spacing: 2px;
+    letter-spacing: 1px;   
 }
 
 section.fadeIn{
@@ -215,12 +224,12 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
 }
 
 .container:before {
-      content: '[';
+      
       left: 0;
     }
 
 .container:after {
-      content: ']';
+     
       position: absolute;
       right: 0;
     }
@@ -277,27 +286,6 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
     font-size: 2.1rem;
 }
 
-.intro_hello .wave-hand.animated {
-    position: relative;
-    animation: wave 2.0s linear;
-}
-
-.intro_hello .wave-hand.animated:hover {
-    position: relative;
-    animation: wave infinite linear;
-}
-
-.intro_hello .wave-hand {
-    background-image: url(images/waving-hand.png);
-    margin-left: 10px;
-    cursor: pointer;
-    position: relative;
-}
-
-.intro_hello .emoji {
-    width: 40px;
-    height: 40px;
-}
 
 .intro_tagline {
     font-weight: 300;
