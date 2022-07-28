@@ -99,7 +99,7 @@ section.fadeIn{
                     -webkit-box-align: center;
                     -ms-flex-align: center;
                     align-items: center;
-                    position: fixed;
+                    position: static;
                     top: 20px;
                     right: 30px;
                 }
@@ -194,12 +194,13 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
 }
 
 .myname {
+      
       text-transform: uppercase;
       letter-spacing: 2px;
       text-decoration: none;
-      text-fill-color: transparent;
+      text-decoration-color: #36363c;
       display: inline-block;
-      /*background-image: linear-gradient(to right, #30CFD0 0%, #330867 100%);*/
+      /* background-image: linear-gradient(to right, #30CFD0 0%, #330867 100%); */
       animation: .8s shake infinite alternate;
 }
 
@@ -213,7 +214,7 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
     overflow:hidden;
     font-size: 30px;
     line-height: 50px;
-    color: #FFCB04;
+    color:#007bff;
 }
 .content .container {
     font-weight: 600;
@@ -318,7 +319,7 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
     vertical-align: text-bottom;
 }
 
-.intro_contact .highlight-link {
+.intro_contact .highlight-link  {
     font-weight: 400;
     text-decoration: none;
     display: inline-block;
@@ -1051,3 +1052,4 @@ body.night .experience .job_time, body.night .footer_copyright, body.night .intr
             line-height: 1.5;
         }
 }
+
